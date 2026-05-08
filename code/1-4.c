@@ -31,4 +31,5 @@ int main(){
     update_ptr(&s);
   }
   finish = clock();
+   printf("%f\n", (double)(finish-start)/CLOCKS_PER_SEC);
 }
