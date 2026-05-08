@@ -3,7 +3,7 @@
 struct student{
   char name[100];
   int score;
-  struct* student;
+  struct student s;
 }
 void add(char* name, int score, student* s){
   if(s==NULL){
@@ -11,8 +11,8 @@ void add(char* name, int score, student* s){
     s->score=score;
     return 0;
   }
-  s->student.name = name;
-  s->student.score = score;
+  s->s.name = name;
+  s->s.score = score;
 }
 void delete(char * name){
   
