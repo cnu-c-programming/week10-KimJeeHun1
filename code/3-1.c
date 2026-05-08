@@ -4,24 +4,13 @@ int student_number = 0;
 struct Student{
   char name[100];
   int score;
-  struct student s;
+  struct Student s;
 }
-Student* head=NULL;
 
-void add(char* name, int score){
-  
-  student_number++;
-}
-void delete(char * name){
-  
-}
-void print(){
-  
-}
 
 int main(){
-  
+  Student *head = NULL;
   while(1){
-    
+    scanf()
   }
 }
